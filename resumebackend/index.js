@@ -61,7 +61,7 @@ const fileUpload = require("express-fileupload");
 const pdfParse = require("pdf-parse");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const genAI = new GoogleGenerativeAI("AIzaSyDFR427aryIYYUpMfVSK4DbBxKPOJ9yh2c");
+const genAI = new GoogleGenerativeAI("");
 
 async function handleResumeRating(req, res) {
     try {
